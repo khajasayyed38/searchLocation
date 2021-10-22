@@ -6,6 +6,7 @@ public class Location {
 	private String code;
 	private String name;
 	private String type;
+	private String getall;
 	public long getId() {
 		return id;
 	}
@@ -29,5 +30,11 @@ public class Location {
 	}
 	public void setType(String type) {
 		this.type = type;
+	}
+	public String getGetall() {
+		return getall;
+	}
+	public void setGetall(String getall) {
+		this.getall = getall;
 	}
 }
